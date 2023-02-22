@@ -1,0 +1,112 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    background-color: #34495e;
+}
+.list-head{
+    display: flex;
+    list-style: none;
+}
+.list-head li a {
+    padding:  15px;
+    color: #2980b9;
+    font-style: initial;
+    font-size: 25q;
+    text-decoration: none;
+}
+.list-head li:hover{
+    background-color: aqua;
+}
+.list-head li{
+    position: relative;
+}
+.sub-menu{
+    width: 86px;
+    text-align: center;
+    background-color: aqua;
+    list-style: none;
+    position: absolute;
+    left:-25px;
+    display: none;
+}
+.list-head li:hover > .sub-menu{
+    display: block;
+}
+.sub-menu li a{
+    font-size: 15q;
+    
+}
+.head-box{
+    display: flex;
+     padding-top: 15px;
+}
+.search{
+    list-style: none;
+    margin-right:  15px;
+}
+.sub a{
+    font-style: initial;
+    color:white ;
+    font-weight: 400;
+    font-size: 25q;
+    /* border: solid; */
+    border-radius: 7px;
+    background-color: #0984e3;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+.box-content{
+    text-align: center;
+}
+.title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50q;
+    font-weight: 600;
+    color: brown;
+}
+.box-ric{
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.form input{
+    width: 200px;
+    height: 20px;
+}
+.find a{
+    text-decoration: none;
+}
+.box-body{
+    margin-top: 20px;
+}
+.box-img{
+    display: flex;
+    
+}
+.list-product{
+    margin: 0 auto;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    justify-content: space-between;
+    background-color: #2980b9;
+}
+.list-product:hover{
+   width: 350px;
+   transition: width 0.5s;
+}
+.img img{
+    width: 90%;
+    height: auto;
+}
+img{
+    margin: 10px 5px 5px 15px;
+}
+.author span{
+    color: brown;
+    font-size: 25q;
+    font-weight: 500;
+}
